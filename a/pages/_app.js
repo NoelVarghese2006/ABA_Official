@@ -16,24 +16,7 @@ const App = ({Component, pageProps}) => {
                     animate={{ scaleY: 0 }}
                     exit={{ scaleY: 1 }}
                     transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-                ></motion.div>
-
-                <motion.div
-                    className="horizontal-right"
-                    initial={{ scaleX: 0 }}  
-                    animate={{ scaleX: 0}}    
-                    exit={{ scaleX: 1 }}     
-                    transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.7 }}
-                ></motion.div>
-
-                <motion.div
-                    className="horizontal-left"
-                    initial={{ scaleX: 1 }}  
-                    animate={{ scaleX: 0}}    
-                    exit={{ scaleX: 0 }}     
-                    transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1], delay: 0.7 }}
-                ></motion.div>
-
+                ><h1>The Fear of the Lord is the beginning of wisdom</h1></motion.div>
                 <motion.div
                     className="slide-out"
                     initial={{ scaleY: 1 }}
