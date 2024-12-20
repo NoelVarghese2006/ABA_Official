@@ -4,6 +4,8 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .header-items
 {
