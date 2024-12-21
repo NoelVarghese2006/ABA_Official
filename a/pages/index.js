@@ -6,7 +6,7 @@ import '@/styles/home.css'
 
 export default function Home() {
     return (
-        <Page>
+        <Page isIndex={true}>
             <Image
                 alt="Intro Image"
                 src="/sand.avif"
@@ -15,7 +15,7 @@ export default function Home() {
                 className='bg-image'
               />
             <div className="title">
-                <h1 className="name">Agape Brethren Assembly</h1>
+                <h1 className="name" style={{backgroundColor: "transparent"}}>Agape Brethren Assembly</h1>
                 <h2>Unconditional Love</h2>
             </div>
             <div className="greetings">

@@ -2,9 +2,9 @@ import Link from "next/link";
 
 import '@/styles/header.css'
 
-export default function Header() {
+export default function Header({ isHome }) {
     return (
-        <header className="navbar">
+        <header className="navbar" style={{backgroundColor: isHome ? "transparent" : "#F3EDC8"}}>
             <div className="logo">
                 <Link href='/'>ABA</Link>
             </div>
@@ -14,6 +14,12 @@ export default function Header() {
                 </div>
                 <div className="header-item">
                     <Link href='/about'>About</Link>
+                </div>
+                <div className="header-item">
+                    <Link href='/meetings'>Meetings</Link>
+                </div>
+                <div className="header-item">
+                    <Link href='/beliefs'>Beliefs</Link>
                 </div>
                 <div className="header-item">
                     <Link href='/contact'>Contact</Link>

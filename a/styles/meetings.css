@@ -1,0 +1,30 @@
+.meetings
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 200%;
+}
+#infobox
+{
+    text-align: center;
+}
+#meetingbox
+{
+    padding-left: 0%;
+}
+#meetings-title
+{
+    font-size: 300%;
+}
+.times
+{
+    color: #7D0A0A;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+.events
+{
+    list-style-type: none;
+    text-align: center;
+}

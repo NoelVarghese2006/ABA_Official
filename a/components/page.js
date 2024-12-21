@@ -1,9 +1,9 @@
 import Header from "./header"
 
-export default function Page({children}) {
+export default function Page({children, isIndex}) {
     return (
         <>
-            <Header />
+            <Header isHome={isIndex}/>
             <main>{children}</main>
         </>
     )
