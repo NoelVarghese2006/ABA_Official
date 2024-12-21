@@ -26,22 +26,16 @@ export default function Contact() {
                     </div>
                 </div>
                 <form className="contact-form">
+                    <h1>Send a Message</h1>
                     <div className="input-box">
-                        <h1>Name</h1>
                         <input
                         className="input-box" 
                         name="name"
                         placeholder="Enter your name"/>
-                    </div>
-                    <div className="input-box">
-                        <h1>Email</h1>
                         <input 
                         name="email"
                         placeholder="Enter you email" />
-                    </div>
-                    <div className="input-box">
-                        <h1>Message</h1>
-                        <input
+                        <textarea
                         name='content'
                         placeholder="Enter your message" />
                     </div>
