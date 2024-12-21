@@ -10,9 +10,9 @@ html, body {
     overflow-x: hidden;
     scrollbar-width: 0;
 }
-/*body::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Edge
-}*/
+body::-webkit-scrollbar {
+    display: none;  
+}
 .slide-in {
     position: absolute;
     top: 0;

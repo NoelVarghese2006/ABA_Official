@@ -28,3 +28,10 @@
     list-style-type: none;
     text-align: center;
 }
+.infobox-container {
+    margin: 1em;
+    backdrop-filter: brightness(95%);
+    border-radius: 20px;
+    box-shadow: 5px 5px#8E0505;
+    padding: 0.5em;
+}

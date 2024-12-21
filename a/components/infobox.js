@@ -6,7 +6,7 @@ import '@/styles/meetings.css'
 
 const InfoBox = ({ title, items }) => {
     return (
-      <div>
+      <div className="infobox-container">
           <h1 id="infobox">{ title }</h1>
           <ul id="meetingbox">
             {

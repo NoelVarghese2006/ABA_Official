@@ -35,6 +35,7 @@
 }
 .input-box textarea {
     resize: vertical;
+    field-sizing: content;
 }
 .input-box textarea:focus {
     background-color: #FF6969;
