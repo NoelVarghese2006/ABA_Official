@@ -1,0 +1,20 @@
+.contact-elements {
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-form {
+    backdrop-filter: brightness;
+}
+.info {
+    margin: 3em;
+}
+.input-box {
+    margin: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 3vh;
+}
+.input-box input {
+    margin: 0;
+}

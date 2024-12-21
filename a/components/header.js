@@ -4,7 +4,7 @@ import '@/styles/header.css'
 
 export default function Header({ isHome }) {
     return (
-        <header className="navbar" style={{backgroundColor: isHome ? "transparent" : "#F3EDC8"}}>
+        <header className="navbar" style={{backgroundColor: isHome ? "transparent" : "#FFF7E0"}}>
             <div className="logo">
                 <Link href='/'>ABA</Link>
             </div>
