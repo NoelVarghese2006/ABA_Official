@@ -1,4 +1,5 @@
 import Link from "next/link";
+import App from "next/app";
 
 import '@/styles/header.css'
 
