@@ -1,6 +1,6 @@
 import Page from "@/components/page";
 
-import '@/styles/beliefs.css'
+//import '@/styles/beliefs.css'
 
 export default function Beliefs() {
     return (

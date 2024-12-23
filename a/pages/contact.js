@@ -1,7 +1,7 @@
 import Page from "@/components/page";
 import Form from 'next/form';
 
-import '@/styles/contact.css'
+//import '@/styles/contact.css'
 
 export default function Contact() {
     return (

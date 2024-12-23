@@ -1,7 +1,7 @@
 import Link from "next/link";
 import App from "next/app";
 
-import '@/styles/header.css'
+//import '@/styles/header.css'
 
 export default function Header({ isHome }) {
     return (

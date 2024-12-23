@@ -3,6 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 
 import '@/styles/global.css'
+import '@/styles/about.css'
+import '@/styles/beliefs.css'
+import '@/styles/contact.css'
+import '@/styles/header.css'
+import '@/styles/home.css'
+import '@/styles/meetings.css'
 
 const App = ({Component, pageProps}) => {
     const router = useRouter();

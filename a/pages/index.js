@@ -2,7 +2,7 @@ import Page from "@/components/page";
 import Link from "next/link";
 import Image from "next/image";
 
-import '@/styles/home.css'
+//import '@/styles/home.css'
 
 export default function Home() {
     return (
@@ -19,7 +19,7 @@ export default function Home() {
                 <h2>Unconditional Love</h2>
             </div>
             <div className="greetings">
-                <h1>Welllcome!</h1>
+                <h1>Welcome!</h1>
                 <p>We are a group of believers who gather in the name of Jesus Christ according to the New Testament principles.</p>
             </div>
         </Page>

@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import '@/styles/meetings.css'
+//import '@/styles/meetings.css'
 
 const InfoBox = ({ title, items }) => {
     return (
