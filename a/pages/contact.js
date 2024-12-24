@@ -6,7 +6,7 @@ import Form from 'next/form';
 export default function Contact() {
     return (
         <Page isIndex={false}>
-            <section>
+            <section className="contact-section">
             <h1>Contact Us</h1>
             <div className="contact-elements">
                 <div className="contact-info">
