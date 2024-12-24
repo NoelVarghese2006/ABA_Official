@@ -24,7 +24,7 @@ export default function Contact() {
         },
         {
           time: '10:00 am, First Sat each Month',
-          meeting: 'Outreach'
+          meeting: 'Outreach Ministry'
         }
       ]
     
