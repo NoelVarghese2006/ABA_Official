@@ -172,7 +172,7 @@ a:hover
 .bg-image
 {
     height: 100vh;
-    width: 110vw;
+    width: 100vw;
     object-fit: cover;
     position: absolute;
     margin-left: 0;
