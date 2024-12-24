@@ -53,3 +53,200 @@ section {
     height: 100vh;
     width: 100vw;
 }
+
+/*about page*/
+
+.about-page {
+    padding: 2em;
+    height: fit-content;
+}
+.agape {
+    margin-top: 20vh;
+}
+.about-page h1{
+    font-size: 500%;
+}
+.about-page p {
+    font-size: 200%;
+}
+
+
+/*beliefs page*/
+
+.beliefs-list {
+    margin: 3em;
+    backdrop-filter: brightness(95%);
+    border-radius: 20px;
+    box-shadow: 5px 5px#8E0505;
+    padding: 1em;
+    list-style: none;
+}
+.beliefs-bg {
+    height: 200vh;
+    
+}
+
+/*contact page*/
+
+.contact-elements {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.contact-form {
+    backdrop-filter: brightness(95%);
+    border-radius: 20px;
+    box-shadow: 7px 7px#8E0505;
+    padding: 1em;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+.info {
+    margin: 3em;
+    backdrop-filter: brightness(95%);
+    border-radius: 20px;
+    box-shadow: 5px 5px#8E0505;
+    padding: 1em;
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin: 1em;
+}
+.input-box input, textarea {
+    margin: 0;
+    width: inherit;
+    height: max-content;
+    border: none;
+    padding: 10px;
+    background-color: #FFF7E0;
+}
+.input-box textarea {
+    resize: vertical;
+    field-sizing: content;
+}
+.input-box textarea:focus {
+    background-color: #FF6969;
+    color: #FFF7E0;
+}
+.input-box input:focus {
+    background-color: #FF6969;
+    color: #FFF7E0;
+}
+
+
+/*header page*/
+
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1em;
+}
+.header-items
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 1%;
+}
+a
+{
+    color: black;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #8E0505;
+}
+
+
+/*home page*/
+
+.bg-image
+{
+    height: 100vh;
+    width: 110vw;
+    object-fit: cover;
+    position: absolute;
+    margin-left: 0;
+    top: 0;
+    background-color: transparent;
+    z-index: -1;
+}
+.greetings
+{
+    margin-top: 6vh;
+    background-color: #FFF7E0;
+}
+.greetings h1{
+    font-size: 500%;
+}
+.greetings p {
+    font-size: 300%;
+}
+.title
+{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+    padding-bottom: 10vh;
+}
+.name
+{
+    margin-bottom: 0.5em;
+}
+
+
+/*meetings page*/
+
+.meetings
+{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 200%;
+}
+#infobox
+{
+    text-align: center;
+}
+#meetingbox
+{
+    padding-left: 0%;
+}
+#meetings-title
+{
+    font-size: 300%;
+}
+.times
+{
+    color: #8E0505;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+.events
+{
+    list-style-type: none;
+    text-align: center;
+}
+.infobox-container {
+    margin: 1em;
+    backdrop-filter: brightness(95%);
+    border-radius: 20px;
+    box-shadow: 5px 5px#8E0505;
+    padding: 0.5em;
+}
