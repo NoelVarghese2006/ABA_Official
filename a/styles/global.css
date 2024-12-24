@@ -83,12 +83,17 @@ section {
     list-style: none;
 }
 .beliefs-bg {
-    height: 200vh;
-    
+    height: 200vh; 
+}
+.beliefs-title {
+    font-size: 500%;
 }
 
 /*contact page*/
 
+.contact-title {
+    font-size: 500%;
+}
 .contact-elements {
     display: flex;
     justify-content: space-evenly;
@@ -190,7 +195,7 @@ a:hover
     font-size: 500%;
 }
 .greetings p {
-    font-size: 300%;
+    font-size: 200%;
 }
 .title
 {
@@ -230,7 +235,7 @@ a:hover
 }
 #meetings-title
 {
-    font-size: 300%;
+    font-size: 500%;
 }
 .times
 {

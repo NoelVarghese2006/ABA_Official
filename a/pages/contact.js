@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <Page isIndex={false}>
             <section className="contact-section">
-            <h1>Contact Us</h1>
+            <h1 className="contact-title">Contact Us</h1>
             <div className="contact-elements">
                 <div className="contact-info">
                     <div className="info">
