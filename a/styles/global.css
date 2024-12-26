@@ -94,7 +94,7 @@ section {
     list-style: none;
 }
 .beliefs-bg {
-    height: 200vh; 
+    padding: 1em; 
 }
 .beliefs-title {
     font-size: 500%;

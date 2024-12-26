@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div className="greetings">
                 <h1>Welcome!</h1>
-                <p>We are a group of believers who gather in the name of Jesus Christ according to the New Testament principles.</p>
+                <p>We are a group of believers who gather in the name of Jesus Christ according to the New Testament principles.</p><br />
                 <p>Please view the other pages if you want to know more about our assembly, and God bless you.</p>
             </div>
         </Page>
