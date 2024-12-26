@@ -154,7 +154,7 @@ section {
 }
 
 
-/*header page*/
+/*header bar*/
 
 .navbar
 {
@@ -167,11 +167,14 @@ section {
 }
 .header-items
 {
+    margin-right: 1em;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     margin-right: 1%;
+    overflow-x: auto;
 }
 a
 {
