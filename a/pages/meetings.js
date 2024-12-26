@@ -4,7 +4,7 @@ import InfoBox from "@/components/infobox";
 export default function Contact() {
     const sunMeetings = [
         {
-          time: '10:00 am - 11:45 am',
+          time: '10:00 - 11:45 am',
           meeting: 'Breaking of Bread & Word Ministry'
         },
         {
@@ -19,7 +19,7 @@ export default function Contact() {
     
       const satMeetings = [
         {
-          time: '7:00 pm - 8:00 pm',
+          time: '7:00 - 8:00 pm',
           meeting: 'Bible Study'
         },
         {
@@ -30,7 +30,7 @@ export default function Contact() {
     
       const wedMeetings = [
         {
-          time: '7:00 pm - 8:00 pm',
+          time: '7:00 - 8:00 pm',
           meeting: 'Prayer Meeting'
         }
       ]

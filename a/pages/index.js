@@ -16,7 +16,7 @@ export default function Home() {
               />
             <div className="title">
                 <h1 className="name" style={{backgroundColor: "transparent"}}>Agape Brethren Assembly</h1>
-                <h2>Unconditional Love</h2>
+                <h2 className="name">Unconditional Love</h2>
             </div>
             <div className="greetings">
                 <h1>Welcome!</h1>
